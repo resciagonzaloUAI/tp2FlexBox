@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+    .noticiasSecundarias {
+    margin-top:180px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .noticiasSecundarias {
+    margin-top:350px;
+    }
+}
+
+
