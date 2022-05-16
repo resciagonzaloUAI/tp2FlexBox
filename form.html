@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">  
+  <title>Actividad Flexbox - Clase 6</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1 class="titNoticia">Diario La Verdad</h1>
+        <h2 class="susbitulo">Noticias objetivas para el pueblo Argentino</h2>
+    </div>
+    <div class="menu">
+        <ul class="navbar">
+            <li class="navbarElement"><a href="index.html">Principal</a></li>
+            <li class="navbarElement"><a href="index.html">Noticias</a></li>
+            <li class="navbarElement"><a href="form.html" target="_blank">Suscribirse</a></li>
+            <li class="navbarElement"><a href="https://weather.com/?Goto=Redirected" target="_blank">Clima</a></li>
+        </ul>
+    </div>
+
+    <div class="formulario1">
+        <form class="formulario2">
+            <label for="nombre">Nombre</label>
+                <input class="inputForm" type="text" id="nombre" required name="nombre" minlength="2" maxlength="15" placeholder="Nicolas"></imput>
+                <label class="labelForm" for="apellido">Apellido</label>
+                <input class="inputForm" type="text" id="apellido" required name="apellido" minlength="2" maxlength="15" placeholder="Gomez"></imput>
+                <label class="labelForm" for="email">Email</label>
+                <input class="inputForm" type="email" id="email" required name="email" placeholder="asd@gmail.com"></imput>
+                <label class="labelForm" for="password">Contraseña</label>
+                <input class="inputForm" type="password" id="password" required name="password" minlength="8" placeholder="Mas de 8 caracteres"></imput>
+                <input class="botones" type="submit" value="Submit">
+                <input class="botones" type="reset" value="reset">
+
+        </form>
+
+
+    </div>
+
+    <footer>
+        <section class="suscripcion">
+            <div>Haga click <a href="index.html">aqui</a> para volver a la página principal</div>
+        </section>
+    </footer>
+</body>
+</html>
