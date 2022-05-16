@@ -127,6 +127,10 @@ li:hover {
 	white-space: pre;
 }
 
+.imgSec:hover, .imgPrinc:hover {
+	background-color:gray;
+}
+
 .botones {
 	margin-bottom: 5px;
 }
