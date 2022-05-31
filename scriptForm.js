@@ -41,14 +41,14 @@ function validateForm() {
                     return false;
                         }           
             } else {
-                alert("Apellido debe ser mayor a 2 letras");
+                alert("El apellido debe ser mayor a 2 letras");
                 alert(longape);
                 document.forms["myForm"]["fapellido"].focus() ;
                 return false;
             }
     } 
          else {
-      alert("Debe ser mayor a 2 letras");
+      alert("El nombre debe ser mayor a 2 letras");
       alert(longitudn);
       document.forms["myForm"]["fname"].focus() ;
       return false;
